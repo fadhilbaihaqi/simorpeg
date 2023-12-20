@@ -1,0 +1,17 @@
+
+@import "../_variables";
+.toast {
+	background-color: rgba(255, 255, 255, 0.95);
+	border-color: rgba(28, 39, 60, 0.16);
+	box-shadow: 0 2px 3px rgba(28, 39, 60, 0.06);
+	border-radius: 3px;
+  }
+  
+  .toast-header {
+	border-bottom-color: rgba(205, 212, 224, 0.4);
+  
+	.close {
+	  font-weight: 300;
+	  color: $gray-500;
+	}
+  }

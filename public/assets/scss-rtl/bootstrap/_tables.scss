@@ -1,0 +1,46 @@
+
+@import "../_variables";
+/* ###### 3.14 Table ###### */
+
+.table {
+	color: $dark;
+  
+	thead {
+	  th, td {
+		color: $secondary;
+		font-weight: 700;
+		font-size: 11px;
+		letter-spacing: .5px;
+		text-transform: uppercase;
+		border-bottom-width: 1px;
+		border-top-width: 0;
+		padding: 0 15px 5px;
+	  }
+	}
+  
+	tbody tr {
+	  background-color: $white-5;
+  
+	  th {
+		font-weight: 500;
+	  }
+	}
+  
+	th, td {
+	  padding: 9px 15px;
+	  line-height: 1.462;
+	}
+  }
+  
+  .table-striped tbody tr:nth-of-type(2n+1) {
+	background-color: rgb(241, 246, 251);
+  }
+  
+  .table-bordered thead {
+	th, td {
+	  border-top-width: 1px;
+	  padding-top: 7px;
+	  padding-bottom: 7px;
+	  background-color: $white-5;
+	}
+  }

@@ -1,0 +1,62 @@
+
+@import "../_variables";
+/* ###### 3.6 Forms ###### */
+
+.form-control {
+	height: 38px;
+	border-radius: 0;
+  
+	&:focus {
+	  border-color: $gray-500;
+	  box-shadow: none;
+	}
+  }
+  
+  .custom-file, .custom-file-input {
+	height: 38px;
+  }
+  
+  .custom-file-label {
+	height: 38px;
+	line-height: 1.8;
+	border-radius: 0;
+  
+	&::after {
+	  line-height: 1.8;
+	  border-radius: 0;
+	  height: auto;
+	}
+  }
+  
+  .form-label {
+	display: block;
+	margin-bottom: 5px;
+	color: $gray-700;
+  }
+  
+  .form-group-rdiobox {
+	display: flex;
+	align-items: center;
+  
+	.rdiobox {
+	  margin-bottom: 0;
+  
+	  + .rdiobox {
+		margin-left: 30px;
+	  }
+  
+	  span {
+		padding-left: 0;
+	  }
+	}
+  }
+  
+  .formgroup-wrapper {
+	.form-control {
+	  height: 40px !important;
+	}
+  
+	.main-form-group .form-label {
+	  margin-bottom: 12px;
+	}
+  }

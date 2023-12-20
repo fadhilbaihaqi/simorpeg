@@ -1,0 +1,60 @@
+@import "../_variables";
+
+/* ###### 3.15 Tooltip ###### */
+
+.tooltip {
+	top: 0;
+  }
+  
+  .tooltip-inner {
+	font-size: 12px;
+	border-radius: 2px;
+  }
+  
+  .tooltip-primary {
+	.tooltip-inner {
+	  background-color: $primary;
+	  color: $white;
+	}
+  
+	&.bs-tooltip-top .arrow::before, &.bs-tooltip-auto[x-placement^="top"] .arrow::before {
+	  border-top-color: $primary;
+	}
+  
+	&.bs-tooltip-bottom .arrow::before, &.bs-tooltip-auto[x-placement^="bottom"] .arrow::before {
+	  border-bottom-color: $primary;
+	}
+  
+	&.bs-tooltip-left .arrow::before, &.bs-tooltip-auto[x-placement^="left"] .arrow::before {
+	  border-left-color: $primary;
+	}
+  
+	&.bs-tooltip-right .arrow::before, &.bs-tooltip-auto[x-placement^="right"] .arrow::before {
+	  border-right-color: $primary;
+	}
+  }
+  
+  .tooltip-secondary {
+	.tooltip-inner {
+	  background-color: $primary;
+	  color: $white;
+	}
+  
+	&.bs-tooltip-top .arrow::before, &.bs-tooltip-auto[x-placement^="top"] .arrow::before {
+	  border-top-color: $primary;
+	}
+  
+	&.bs-tooltip-bottom .arrow::before, &.bs-tooltip-auto[x-placement^="bottom"] .arrow::before {
+	  border-bottom-color: $primary;
+	}
+  
+	&.bs-tooltip-left .arrow::before, &.bs-tooltip-auto[x-placement^="left"] .arrow::before {
+	  border-left-color: $primary;
+	}
+  
+	&.bs-tooltip-right .arrow::before, &.bs-tooltip-auto[x-placement^="right"] .arrow::before {
+	  border-right-color: $primary;
+	}
+  }
+  
+  /* ############### CUSTOM VENDOR STYLES ############### */

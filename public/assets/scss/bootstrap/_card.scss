@@ -1,0 +1,54 @@
+@import "../_variables";
+
+.card {
+	border-radius: 0;
+  
+	&.text-white .card-title, &.tx-white .card-title {
+	  color: $white;
+	}
+  }
+  
+  .card-header, .card-footer {
+	position: relative;
+	border-color: $gray-200;
+  }
+  
+  .card-header {
+	border-bottom: 0;
+	border-top-left-radius: 6px !important;
+    border-top-right-radius: 6px !important;
+  
+	&:first-child {
+	  border-radius: 0;
+	}
+  }
+  
+  .card-header-tab {
+	border-bottom: 0;
+	padding: 0;
+  }
+  
+  .card-title {
+	font-weight: 700;
+	color: #262833;
+	font-size: 14px;
+	text-transform: uppercase;
+  }
+  
+  .carousel-control-prev-icon, .carousel-control-next-icon {
+	background-image: none;
+	display: block;
+	width: auto;
+	height: auto;
+  }
+  
+  .carousel-control-prev-icon svg, .carousel-control-next-icon svg {
+	width: 48px;
+	height: 48px;
+  }
+  
+  .carousel-indicators li {
+	width: 10px;
+	height: 10px;
+	border-radius: 100%;
+  }
