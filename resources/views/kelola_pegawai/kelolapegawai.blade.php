@@ -28,10 +28,13 @@
                         <i class="mdi mdi-dots-horizontal text-gray"></i>
                     </div>
 
-                    <div class="row align-items-center mt-2">
-                        <div class="col-auto">
+                    <div class="row mt-3">
+                        <div class="col-12">
                             <form action="{{ route('kelolapegawai') }}" method="GET">
-                                <input type="search" class="form-control" name="search" placeholder="Cari">
+                                <div class="input-group mb-3">
+                                    <input type="search" class="form-control" name="search" placeholder="Cari">
+                                    <button class="btn btn-pink" type="submit">Cari</button>
+                                </div>
                             </form>
                         </div>
                     </div>
